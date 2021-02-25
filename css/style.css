@@ -14,10 +14,11 @@ header{
     width: 94px;
 }
 .logo_2{
-    background: url(../img/logo.png);
-    width: 94px;
-    height: 94px;
+    height: 500px;
+    text-align: center;
     display: block;
+    margin: auto;
+    margin-top: 10px;
         
 }
 
@@ -46,7 +47,7 @@ nav a:hover{
     text-decoration: overline;
 }
 .fon_img{
-    background:url(../img/raki.jpg);
+    background:url(../img/raki.webp);
     height: 100vh;
     background-repeat:no-repeat;
     background-size: cover;
