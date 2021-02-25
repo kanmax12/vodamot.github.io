@@ -21,23 +21,20 @@ nav a{
     color: white;
 }
 li{
-    padding-left: 20px; 
-    padding-right:20px; 
     list-style: none;
     float:left;
- 
-}
-nav{
-   
-}
-ul{
-    float:right;
-    text-align: center;
-    font-family: Arial;
-    font-size:20px;
-    padding-top: 21px;
     
 }
+.zag{
+    padding-left: 40px;
+}
+ul{
+    text-align: center;
+    font-family: Arial;
+    font-size:32px;
+    
+}
+
 nav a:hover{
     color: darkred;
     text-decoration: overline;
@@ -54,9 +51,8 @@ nav a:hover{
     padding-top: 21px;
     font-family: Arial;
     font-size: 20px;
-}.info p{
-        
-    }
+}
+
 
 .info a{
     background:url(../img/korzina.png);
