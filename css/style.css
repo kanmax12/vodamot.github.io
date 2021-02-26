@@ -110,6 +110,7 @@ footer{
 .info{
     padding-left: 40px;
     line-height: 15px;
+    padding-top: 20px;
 }
 #od{
     background:url(../img/odt.png) no-repeat;
@@ -160,8 +161,5 @@ nav a {
     color: white;
     padding-left: 45px;	
     font-size: 16px;
-}
-.info{
-    padding-top: 20px;
 }
 }
