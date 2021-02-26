@@ -89,3 +89,22 @@ footer{
     display: block;
     margin-left:33px; 
 }
+@media (max-width:768px) {
+#vk{
+    background:url(../img/vk.png);
+    width: 20px;
+    height: 20px; 
+    display: block;
+}
+}
+@media (max-width:320px) {
+    
+    
+#vk{
+    background:url(../img/vk.png);
+    width: 20px;
+    height: 20px; 
+    display: block;
+}
+  
+}
