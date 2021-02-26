@@ -39,7 +39,9 @@ li{
 .zag{
     padding-left: 40px;
 }
-
+.nom{
+    display: none;
+}
 
 nav a:hover{
     color: darkred;
@@ -90,14 +92,21 @@ footer{
 }
 
 @media (max-width:990px) {
-   
+    
 }
-@media (max-width: 990px) {
+@media (max-width: 990px){
+.nom{
+    display: block;
+    text-align: center;  
+    color: white;
+    font-size: 16px;
+}
 .logo{
     padding-top: 25px;
     padding-left: 5px;
     width: 50px;
 }
+
 .info{
     padding-left: 40px;
     line-height: 15px;
@@ -117,7 +126,7 @@ footer{
     float: left;
 }
 .info p{
-        font-size: 10px;
+       display: none;
     }
 .zag{
     padding-left: 0px;
