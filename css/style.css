@@ -27,7 +27,6 @@ nav a{
     color: white;
 }
 ul{
-    text-align: center;
     font-family: Arial;
     font-size:32px;
     
@@ -89,22 +88,54 @@ footer{
     display: block;
     margin-left:33px; 
 }
-@media (max-width:768px) {
-#vk{
-    background:url(../img/od.png);
-    width: 60px;
-    height: 60px; 
+
+@media (max-width:990px) {
+    
+}
+@media (max-width: 990px) {
+.info{
+    padding-left: 40px;
+    line-height: 15px;
+}
+#od{
+    background:url(../img/odt.png) no-repeat;
+    width: 30px;
+    height: 30px; 
     display: block;
 }
-}
-@media (max-width:320px) {
-    
-    
 #vk{
-    background:url(../img/od.png);
-    width: 160px;
-    height: 160px; 
+    background:url(../img/vkt.png) no-repeat;
+    width: 30px;
+    height: 30px; 
     display: block;
+    float: left;
 }
-  
+.info p{
+        font-size: 20px;
+    }
+.zag{
+    padding-left: 0px;
 }
+ul{
+        font-size: 20px;
+    }
+nav {
+  		height: auto;
+  	}
+nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+nav li {
+  		width: 50%;
+  		float: left;
+  		position: relative;
+  	}
+nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+}
+
