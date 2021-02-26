@@ -99,6 +99,7 @@ footer{
     display: block;
     text-align: center;  
     color: white;
+    padding-left: 15px;	
     font-size: 16px;
 }
 .logo{
